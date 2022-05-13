@@ -25,9 +25,9 @@ void Draw(const int& W, const int& H, int& x, int& y, int& EX, int& EY, int& sco
 		cout << "#";
 	}
 	cout << endl;
-
-	for (int i = 0; i < H; i++)
-	{
+																					
+	for (int i = 0; i < H; i++)														
+	{																				
 		for (int j = 0; j < W; j++)
 		{
 			if (j == 0 || j == W - 1)
